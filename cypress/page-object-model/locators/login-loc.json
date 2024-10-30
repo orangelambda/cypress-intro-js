@@ -1,0 +1,8 @@
+{
+    "usernameInput": "#user-name",
+    "passwordInput": "#password",
+    "loginClick": "#login-button"
+
+    
+
+}
