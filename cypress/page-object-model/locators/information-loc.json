@@ -1,0 +1,5 @@
+{
+    "nameInput": "#first-name",
+    "surnameInput": "#last-name",
+    "postalInput": "#postal-code"
+}

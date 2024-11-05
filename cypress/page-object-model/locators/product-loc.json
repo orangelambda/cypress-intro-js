@@ -1,0 +1,9 @@
+{
+    "cartClick": "#shopping_cart_container",
+    "checkoutClick": ".checkout_button",
+    "addButtons": ".btn_primary",
+    "inventoryItem": ".inventory_item",
+    "continueClick": ".cart_button",
+    "finishClick": ".btn_action",
+    "completeHeader": ".complete-header"
+}

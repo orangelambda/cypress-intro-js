@@ -1,4 +1,4 @@
-import { LOGIN_CREDENTIALS } from "../page-object-model/data/constants";
+import * as constants from "../page-object-model/data/constants";
 
 describe ("Product POM Test", () => {
 
@@ -14,7 +14,8 @@ describe ("Product POM Test", () => {
     });
 
     it ("Product purchase", () => {
-        cy.basicLogin(LOGIN_CREDENTIALS.USERNAME, LOGIN_CREDENTIALS.PASSWORD);
-        cy.lightAdd();
+        cy.basicLogin(constants.LOGIN_CREDENTIALS.USERNAME, constants.LOGIN_CREDENTIALS.PASSWORD);
+        cy.addProduct(constants.PRODUCT_NAMES.BACKPACK);
+        cy.payProduct(constants.INFO_CREDENTIALS.NAME, constants.INFO_CREDENTIALS.SURNAME, constants.INFO_CREDENTIALS.POSTAL_CODE);
     })
 });
